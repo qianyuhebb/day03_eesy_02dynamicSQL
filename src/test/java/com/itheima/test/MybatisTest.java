@@ -27,6 +27,7 @@ public class MybatisTest {
     private SqlSession sqlSession;
     private IUserDao userDao;
 
+
     @Before//用于在测试方法执行之前执行
     public void init()throws Exception{
         //1.读取配置文件，生成字节输入流
